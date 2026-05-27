@@ -29,3 +29,25 @@ The dataset contains information about cars such as:
 - horsepower
 - weight
 - transmission type
+# Student Performance Dashboard
+
+## Tools Used
+- Tableau Public
+- Python
+- MySQL
+- Pandas
+
+## Project Description
+This project analyzes student attendance, study hours, and internet access.
+
+## Features
+- Attendance analysis
+- Internet access vs study hours
+- Interactive dashboard
+
+## Tableau Public Dashboard
+PASTE YOUR TABLEAU LINK HERE
+
+## Dashboard Preview
+
+![Dashboard](student-analysis.png)
