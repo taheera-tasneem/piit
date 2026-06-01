@@ -45,7 +45,7 @@ This project analyzes student attendance, study hours, and internet access.
 - Internet access vs study hours
 - Interactive dashboard
 # Healthcare Analytics Dashboard
-![Healthcare Dashboard](healthcare-dashboard.png)
+![(patient health evaluation.png)
 
 ## Overview
 
