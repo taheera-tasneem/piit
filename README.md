@@ -45,6 +45,8 @@ This project analyzes student attendance, study hours, and internet access.
 - Internet access vs study hours
 - Interactive dashboard
 # Healthcare Analytics Dashboard
+![Healthcare Dashboard](healthcare-dashboard.png)
+
 ## Overview
 
 This project demonstrates the use of Tableau Public to create interactive dashboards for analyzing healthcare datasets. The dashboard provides visual insights into patient health conditions, treatment costs, and demographic patterns to support data-driven decision-making.
