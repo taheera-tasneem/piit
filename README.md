@@ -30,7 +30,7 @@ The dataset contains information about cars such as:
 - weight
 - transmission type
 # Student Performance Dashboard
-
+![Student Performance Dashboard](student-analysis.png)
 ## Tools Used
 - Tableau Public
 - Python
