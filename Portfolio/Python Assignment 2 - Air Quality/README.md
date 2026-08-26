@@ -1,64 +1,90 @@
-# mtcars Data Analysis Using Python
-Project Overview mtcars Data Analysis Using Python
-# Project Overview
+#  Air Quality Data Analysis Using Python
 
-This project demonstrates basic data analysis and manipulation using Python and Pandas with the mtcars dataset. The dataset contains information about different car models and their specifications, such as fuel efficiency, horsepower, weight, and number of cylinders.
+## Project Overview
 
-The purpose of this project is to practice fundamental Python data-analysis techniques, including exploring a dataset, selecting columns, filtering records, sorting data, and analyzing vehicle characteristics.
+This project analyzes the **Air Quality dataset** using Python and Pandas. The purpose of the assignment is to practice fundamental data analysis techniques, including exploring the dataset, selecting rows and columns, filtering data, sorting values, and identifying missing values.
 
-# Dataset
+## Dataset
 
-The mtcars dataset contains information on 32 car models with several automobile-related variables.
+The airquality dataset contains daily air quality measurements and weather information.
 
-# Some important variables include:
+The main variables include:
 
-mpg – Miles per gallon
-cyl – Number of cylinders
-disp – Engine displacement
-hp – Horsepower
-drat – Rear axle ratio
-wt – Weight
-qsec – Quarter-mile time
-am – Transmission type
-gear – Number of forward gears
-carb – Number of carburetors
-Tools and Technologies
-Python
-Pandas
-Jupyter Notebook
-pydataset
-Analysis Performed
+* **Ozone** – Ozone concentration
+* **Solar.R** – Solar radiation
+* **Wind** – Wind speed
+* **Temp** – Temperature
+* **Month** – Month of observation
+* **Day** – Day of observation
 
-# The project includes several data-analysis tasks:
+## Tools and Technologies
 
-Loaded the mtcars dataset into Python
-Displayed the first and last rows of the dataset
-Examined the dataset's structure and columns
-Selected specific rows and columns
-Filtered cars based on different conditions
-Sorted data by variables such as MPG and horsepower
-Worked with columns such as hp, cyl, and mpg
-Performed basic exploratory data analysis
-Skills Demonstrated
+* Python
+* Pandas
+* NumPy
+* Jupyter Notebook
+* `pydataset`
 
-# This project demonstrates knowledge of:
+## Data Import
 
-Python fundamentals
-Pandas DataFrames
-Data selection and filtering
-Sorting data
-Working with rows and columns
-Conditional filtering
-Exploratory Data Analysis (EDA)
-Example
-from pydataset import data
+The dataset was loaded using the `pydataset` library.
+
+```python
 import pandas as pd
+import numpy as np
+from pydata set import data
 
-# Load the mtcars dataset
-df = data("mtcars")
+df = data('airquality')
 
-# Display the first five rows
-df.head()
-# Conclusion
 
-The mtcars Data Analysis Project provides hands-on practice with Python and Pandas for exploring and manipulating structured data. It demonstrates foundational data-analysis skills that can be applied to larger real-world datasets.
+## Analysis Performed
+
+During this project, I performed several data exploration and manipulation tasks, including:
+
+* Imported and explored the Air Quality dataset
+* Displayed the first and last rows of the dataset
+* Examined selected rows and columns
+* Selected specific columns such as `Ozone`, `Solar.R`, and `Temp`
+* Created a new DataFrame from selected columns
+* Used `head()` to display the first records
+* Selected the first 10 rows of the dataset
+* Identified missing (`NaN`) values
+* Filtered data based on different conditions
+* Sorted and manipulated data using Pandas
+
+## Example: Selecting Columns
+
+python
+df_sel = df[['Ozone', 'Solar.R', 'Temp']]
+df_sel.head()
+
+
+This creates a new Data Frame containing only the **Ozone, Solar Radiation, and Temperature** columns.
+
+## Example: First 10 Rows
+
+python
+df_sel.head(10)
+
+
+The head(10) method displays the first 10 rows of the selected dataset.
+
+## Skills Demonstrated
+
+This project demonstrates practical knowledge of:
+
+* Python fundamentals
+* Pandas DataFrames
+* Data exploration
+* Row and column selection
+* Data filtering
+* Data sorting
+* Handling missing values
+* Basic exploratory data analysis (EDA)
+
+## Conclusion
+
+This Air Quality Data Analysis project demonstrates the use of **Python and Pandas to explore, select, filter, and manipulate real-world environmental data**. It helped strengthen foundational data analysis skills that can be applied to larger datasets and more advanced analytics projects.
+
+
+
